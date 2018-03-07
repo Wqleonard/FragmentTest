@@ -16,6 +16,7 @@ public class AnotherRightFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         View view=inflater.inflate(R.layout.another_right_fragment,container,false);
+//        Activity activity=(MainActivity)getActivity();
         return view;
     }
 }
